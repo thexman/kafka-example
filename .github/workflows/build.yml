@@ -34,7 +34,7 @@ jobs:
         run: echo "::set-output name=date::$(TZ='UTC' date +'.%Y%m%dT%H%M%S')"
       - name: Update pom version
         run:
-          sed -i s/-SNAPSHOT/${{}.java-${{}.${{}/g pom.xml
+          sed -i s/-SNAPSHOT/${{steps.date.outputs.date}}.java-${{matrix.Java}}.${{matrix.os}}/g pom.xml
       - name: Build with Maven
         run: mvn -B install --file pom.xml
       - name: Copy build artifact
@@ -42,6 +42,6 @@ jobs:
       - name: Upload jar artifact
         uses: actions/upload-artifact@v3
         with:
-          name: $artifactId-java${{}
+          name: kafka-example-java${{matrix.Java}}
           path: artifacts/
           retention-days: 3
