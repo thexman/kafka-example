@@ -40,7 +40,7 @@ jobs:
       - name: Copy build artifact
         run: mkdir artifacts && cp target/*.jar artifacts
       - name: Upload jar artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v6
         with:
           name: kafka-example-java${{matrix.Java}}
           path: artifacts/
