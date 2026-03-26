@@ -15,7 +15,7 @@
 		<maven.compiler.source>11</maven.compiler.source>
 		<maven.compiler.target>11</maven.compiler.target>
 
-		<maven.test.plugins.version>3.0.0-M6</maven.test.plugins.version>
+		<maven.test.plugins.version>3.5.5</maven.test.plugins.version>
 		<maven.exec.plugin.version>3.0.0</maven.exec.plugin.version>
 		<maven.jar.plugin.version>3.2.2</maven.jar.plugin.version>
 
