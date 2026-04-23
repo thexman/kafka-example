@@ -35,7 +35,7 @@
 		<httpclient.version>5.6</httpclient.version>
 		<jcommander.version>1.82</jcommander.version>
 		<guava.version>33.5.0-jre</guava.version>
-		<gson.version>2.9.0</gson.version>
+		<gson.version>2.13.2</gson.version>
 		<gson-configuration.version>1.4.1</gson-configuration.version>
 
 		<mainClass>com.a9ski.kafka.example.Application</mainClass>
