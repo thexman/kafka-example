@@ -32,7 +32,7 @@
 		<commons-text.version>1.15.0</commons-text.version>
 		<commons-compress.version>1.26.0</commons-compress.version>
 		<commons-csv.version>1.14.1</commons-csv.version>
-		<httpclient.version>5.6</httpclient.version>
+		<httpclient.version>5.6.1</httpclient.version>
 		<jcommander.version>1.82</jcommander.version>
 		<guava.version>33.5.0-jre</guava.version>
 		<gson.version>2.9.0</gson.version>
